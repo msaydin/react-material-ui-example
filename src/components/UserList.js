@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Grid from '@material-ui/core/Grid';
-import TextField from '@material-ui/core/TextField';
+import { Grid, TextField } from '@material-ui/core';
 import User from './User';
 import users from '../data/users';
 
@@ -16,7 +15,7 @@ class UserList extends Component {
         }
     }
 
-    onSearchInputChange = (event) => {
+    onSearchInputChange(event) {
         if (event.target.value) {
             this.getFilteredUsers(event.target.value)
         } else {

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
+import { Avatar, Dialog, DialogTitle, Button } from '@material-ui/core';
 import UserProfile from './UserProfile';
-import Avatar from '@material-ui/core/Avatar';
-import Dialog from '@material-ui/core/Dialog';
-import DialogTitle from '@material-ui/core/DialogTitle';
-import Button from '@material-ui/core/Button';
 import './components.css';
 
 class User extends Component {
